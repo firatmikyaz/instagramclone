@@ -1,13 +1,16 @@
-::placeholder{
+input::placeholder{
   text-align: center;
   font-size: 14px;
   color: gray;
   background-position: 40%;
   background-size: 6%;
-  /* background: url(/assets/search-solid.svg) no-repeat; */
   background: url(/assets/search-solid.svg);
-  background: no-repeat;
-  background-position: right;
+}
+
+input::-webkit-input-placeholder::after {
+  visibility: visible;
+  background: url(/assets/search-solid.svg);
+  /* şarj bitti senin .d */
 }
 
 input.empty {
@@ -49,3 +52,4 @@ input.empty {
   text-decoration: none;
   color: lightgrey;
 }
+
