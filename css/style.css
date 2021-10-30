@@ -51,6 +51,18 @@ input.empty {
   color: black;
 }
 
+.fa-bookmark {
+  position: -webkit-sticky;
+}
+
+.list-group {
+  border: none !important;  
+}
+
+.takipet {
+  float: right;
+}
+
 .rightpanel {
   border: none;
   background-color: #fff;
@@ -66,3 +78,7 @@ input.empty {
   color: lightgrey;
 }
 
+#sticky-sidebar {
+  position: fixed;
+  background-color: rgba(var(--b3f,250,250,250),1);
+}
