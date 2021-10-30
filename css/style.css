@@ -4,10 +4,18 @@ body {
   padding: 10px;
 }
 
+.navbar {
+  background-color: #fff; 
+  height: 54px;
+}
+
+.navbar-brand {
+  margin-left: 192px;
+}
+
 .middlearea {
   max-height: 200px !important;
 }
-
 
 ::placeholder{
   text-align: center;
@@ -18,15 +26,12 @@ body {
   background: no-repeat url("/assets/search-solid.svg");
 }
 
-
-
 input.empty {
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
     background-color: #FAFAFA;
-    text-align: center;
 }
 
 .postuserfont {
@@ -34,7 +39,6 @@ input.empty {
   font-size: 15px;
   color: black;
 }
-
 
 .storyphoto {
   width: 60px;
@@ -52,7 +56,8 @@ input.empty {
 }
 
 .fa-bookmark {
-  position: -webkit-sticky;
+  position: absolute;
+  float: right;
 }
 
 .list-group {
@@ -61,6 +66,20 @@ input.empty {
 
 .takipet {
   float: right;
+}
+
+.paylas {
+  float: right;
+  opacity: 35%;
+  color: #0095f6;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.card-footer {
+  background-color: #fff;
 }
 
 .rightpanel {
